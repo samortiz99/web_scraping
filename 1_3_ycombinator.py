@@ -38,7 +38,7 @@ for notes in notes_list:
     # split toma la cadena y la separa por el valor "|", posteriormente selecciona último valor
         comentarios = comentarios.split('|')[-1]
     except:
-        print("No hay comments")
+        print("There is no comments here")
     
     print(f'{title}\n{url}\n{score}\n{comentarios.strip()}\n\n')
     
